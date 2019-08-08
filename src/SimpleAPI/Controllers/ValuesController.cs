@@ -21,7 +21,7 @@ namespace SimpleAPI.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "gmg value";
+            return "gmg bad value";
         }
 
         // POST api/values
